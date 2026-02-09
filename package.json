@@ -1,0 +1,19 @@
+{
+  "name": "ultraviolet-proxy",
+  "version": "1.0.0",
+  "description": "Ultraviolet web proxy deployable to Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "type": "module",
+  "keywords": ["proxy", "ultraviolet", "web-proxy"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "express": "^4.18.2",
+    "bare-server-node": "^2.0.3"
+  }
+}
